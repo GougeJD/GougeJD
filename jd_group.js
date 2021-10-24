@@ -6,7 +6,7 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 
 let cookiesArr = [], cookie = '', message;
 let secretp='',inviteId=[]
-let helpnum=3;
+let helpnum=5;
 let groupnum=6;
 let num=0;
 
