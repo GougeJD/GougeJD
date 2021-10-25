@@ -7,7 +7,7 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', message;
 let secretp='',inviteId=[]
 let helpnum=5;
-let groupnum=6;
+let groupnum=29;
 let num=0;
 
 Date.prototype.Format = function (fmt) { //author: meizz
