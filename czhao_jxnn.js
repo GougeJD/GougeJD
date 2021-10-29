@@ -199,7 +199,7 @@ async function takeGetRequest(type) {
   switch (type) {
     
     case 'Gethelp':
-      url = `https://m.jingxi.com/pgcenter/sign/UserSignOpr?sceneval=2&source=&_stk=sceneval%2Csource&_ste=1`;
+      url = `https://m.jingxi.com/pgcenter/sign/UserSignNew?sceneval=2&source=&_stk=sceneval%2Csource&_ste=1`;
       url += `&h5st=${decrypt(Date.now(), '', '', url)}&&sceneval=2&g_login_type=1&callback=jsonpCBK${String.fromCharCode(Math.floor(Math.random() * 26) + "A".charCodeAt(0))}&g_ty=ls`;
       break;
     case 'Dohelp':
