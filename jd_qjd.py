@@ -247,7 +247,6 @@ class getJDCookie(object):
                     # 获取账号名
                     ck, nickname = self.getUserInfo(i, pinName, u)
                     if nickname != False:
-                        cookiesList.append(ck)
                         userNameList.append(nickname)
                         pinNameList.append(pinName)
                     else:
